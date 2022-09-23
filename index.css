@@ -1,0 +1,466 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.frame {
+    position: absolute;
+    width: 35vw;
+    height: 55vh;
+    background-color: #aee2f0;
+    box-shadow: 10px 10px 10px #d7d7d7;
+    border-radius: 20px 20px 20px 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 400px;
+}
+.earth {
+    width: 100%;
+    height: 50%;
+    margin-top: 40.2%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 1px 15px 20px 0px rgb(231, 231, 233);
+}
+.face {
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    left: 40%;
+    top: 37%;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.body {
+    position: absolute;
+    width: 6vw;
+    height: 7.5vw;
+    left: 37.5%;
+    top: 48.8%;
+    background-color: black;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.stomic {
+    position: absolute;
+    width: 4.8vw;
+    height: 6.2vw;
+    left: 39.2%;
+    top: 51.7%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.hand1 {
+    position: absolute;
+    width: 3.5vw;
+    height: 2.2vw;
+    border-bottom: 1.6vw solid black;
+    border-bottom-right-radius: 66% 63%;
+    top: 42%;
+    left: 48%;
+    transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+}
+.hand2 {
+    position: absolute;
+    width: 3.5vw;
+    height: 2.2vw;
+    border-bottom: 1.6vw solid black;
+    border-bottom-right-radius: 66% 63%;
+    top: 54%;
+    left: 33.3%;
+    transform: rotate(157deg);
+    -webkit-transform: rotate(157deg);
+    -moz-transform: rotate(157deg);
+    -ms-transform: rotate(157deg);
+    -o-transform: rotate(157deg);
+}
+.cheek1 {
+    position: absolute;
+    width: 1.4vw;
+    height: 2.2vw;
+    left: 41.7%;
+    top: 40.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.cheek2 {
+    position: absolute;
+    width: 1.4vw;
+    height: 2.2vw;
+    left: 47%;
+    top: 40.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.chain {
+    position: absolute;
+    width: 1.4vw;
+    height: 2.7vw;
+    left: 44.6%;
+    top: 42.4%;
+    background-color: rgb(255, 255, 255);
+    rotate: 90deg;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.nose {
+    position: absolute;
+    width: 0.9vw;
+    height: 0.6vw;
+    background-color: rgb(255, 117, 5);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 45%;
+    top: 44.6%;
+}
+.eye1 {
+    position: absolute;
+    width: 0.4vw;
+    height: 0.6vw;
+    left: 43.6%;
+    top: 42.4%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.eye1::after {
+    content: "";
+    position: absolute;
+    width: 0.1vw;
+    height: 0.2vw;
+    left: 20%;
+    top: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.eye2 {
+    position: absolute;
+    width: 0.4vw;
+    height: 0.6vw;
+    left: 48.5%;
+    top: 42.4%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.eye2::after {
+    content: "";
+    position: absolute;
+    width: 0.1vw;
+    height: 0.2vw;
+    left: 10%;
+    top: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.foot1 {
+    position: absolute;
+    width: 1vw;
+    height: 1.6vw;
+    left: 49%;
+    top: 72%;
+    background-color: rgb(255, 117, 5);
+    rotate: 110deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.foot2 {
+    position: absolute;
+    width: 1vw;
+    height: 1.6vw;
+    left: 40.6%;
+    top: 72%;
+    background-color: rgb(255, 117, 5);
+    rotate: -110deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.shadow {
+    position: absolute;
+    width: 6vw;
+    height: 2vw;
+    top: 73.5%;
+    left: 39.8%;
+    background-color: rgb(153, 150, 150);
+    filter: blur(10px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-filter: blur(10px);
+}
+.lake {
+    position: absolute;
+    width: 10.5vw;
+    height: 4vw;
+    top: 65%;
+    left: 70%;
+    background-color: rgb(43, 32, 192);
+    box-shadow: inset 0px 0px 40px rgb(2, 2, 84), 0px 0px 20px gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.tail {
+    position: absolute;
+    width: 1.1vw;
+    height: 2vw;
+    top: 68%;
+    left: 78%;
+    background-color: rgb(98, 147, 196);
+    box-shadow: inset 0px 0px 10px rgb(55, 103, 145), 0px 5px 5px rgba(255, 255, 255, 0.6);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.tail1 {
+    position: absolute;
+    width: 2.4vw;
+    height: 1.2vw;
+    border-bottom: 1.1vw solid rgb(98, 147, 196);
+    border-bottom-right-radius: 66% 63%;
+    top: 62.5%;
+    left: 79%;
+    border-bottom-right-radius: 66% 63%;
+    transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+}
+.tail2 {
+    position: absolute;
+    width: 2.4vw;
+    height: 1.2vw;
+    border-bottom: 1.1vw solid rgb(98, 147, 196);
+    top: 62.5%;
+    left: 72.5%;
+    border-bottom-left-radius: 66% 63%;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+.waterdrop {
+    position: absolute;
+    width: 1vw;
+    height: 1.2vw;
+    box-shadow: inset 10px 10px 10px rgba(196, 67, 232, 0.05), 5px 5px 10px rgba(0, 0, 0, 0.1),
+        10px 10px 10px rgba(0, 0, 0, 0.05), inset -10px -10px 10px rgba(255, 255, 255, 0.9);
+}
+.waterdrop::after {
+    content: "";
+    position: absolute;
+    width: 0.2vw;
+    height: 0.2vw;
+    top: 20%;
+    left: 15%;
+    background-color: #fff;
+    border-radius: 51% 49% 70% 30% / 30% 72% 28% 70%;
+    -webkit-border-radius: 51% 49% 70% 30% / 30% 72% 28% 70%;
+    -moz-border-radius: 51% 49% 70% 30% / 30% 72% 28% 70%;
+    -ms-border-radius: 51% 49% 70% 30% / 30% 72% 28% 70%;
+    -o-border-radius: 51% 49% 70% 30% / 30% 72% 28% 70%;
+}
+.waterdrop::before {
+    content: "";
+    position: absolute;
+    width: 0.1vw;
+    height: 0.1vw;
+    top: 20%;
+    left: 40%;
+    background-color: #fff;
+    border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
+    -webkit-border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
+    -moz-border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
+    -ms-border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
+    -o-border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
+}
+.drop1 {
+    top: 40%;
+    left: 58%;
+    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -webkit-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -moz-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -ms-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -o-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    transform: translateZ(300px);
+    -webkit-transform: translateZ(300px);
+    -moz-transform: translateZ(300px);
+    -ms-transform: translateZ(300px);
+    -o-transform: translateZ(300px);
+}
+.drop2 {
+    top: 65%;
+    left: 75%;
+    border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -webkit-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -moz-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -ms-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -o-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+}
+.drop3 {
+    top: 40%;
+    left: 62%;
+    border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -webkit-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -moz-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -ms-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    -o-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
+    transform: translateZ(200px);
+    -webkit-transform: translateZ(200px);
+    -moz-transform: translateZ(200px);
+    -ms-transform: translateZ(200px);
+    -o-transform: translateZ(200px);
+}
+.drop4 {
+    top: 50%;
+    left: 67%;
+    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -webkit-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -moz-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -ms-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -o-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    transform: translateZ(150px);
+    -webkit-transform: translateZ(150px);
+    -moz-transform: translateZ(150px);
+    -ms-transform: translateZ(150px);
+    -o-transform: translateZ(150px);
+}
+.drop5 {
+    top: 58%;
+    left: 83%;
+    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -webkit-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -moz-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -ms-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    -o-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+}
+.sun {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    top: 14%;
+    left: 20%;
+    box-shadow: 0px 0px 40px 15px white;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: loop 2s linear infinite;
+    -webkit-animation: loop 2s linear infinite;
+}
+.ray {
+    background: -webkit-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background: linear-gradient(
+        top,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    margin-left: 10px;
+    border-radius: 80% 80% 0 0;
+    position: absolute;
+    opacity: 0.1;
+}
+.ray1 {
+    width: 1.3vw;
+    height: 5vw;
+    top: 80%;
+    left: 14%;
+}
+.ray2 {
+    width: 1.3vw;
+    height: 4vw;
+    top: -140%;
+    left: 11%;
+}
+.ray3 {
+    width: 4vw;
+    height: 1.3vw;
+    top: 35%;
+    left: 82%;
+}
+.ray4 {
+    width: 4vw;
+    height: 1.3vw;
+    top: 35%;
+    right: 95%;
+}
+.ray5 {
+    width: 4vw;
+    height: 0.6vw;
+    top: -25%;
+    right: 80%;
+    rotate: 40deg;
+}
+.ray6 {
+    width: 4vw;
+    height: 0.6vw;
+    top: 115%;
+    left: 55%;
+    rotate: 40deg;
+}
+
+@keyframes loop {
+    to {
+        rotate: 180deg;
+    }
+}
