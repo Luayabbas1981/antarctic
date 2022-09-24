@@ -237,17 +237,45 @@ body {
 .lake {
     position: absolute;
     width: 10.5vw;
-    height: 4vw;
+    height: 5.4vw;
     top: 65%;
     left: 70%;
-    background-color: rgb(43, 32, 192);
-    box-shadow: inset 0px 0px 40px rgb(2, 2, 84), 0px 0px 20px gray;
+    background-color: rgb(60, 49, 203);
+    box-shadow: inset 0px 0px 40px rgb(2, 2, 84), 5px 7px 20px gray;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.water{
+    position: absolute;
+    border: 2px solid rgb(61, 61, 157);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.water1{
+    width: 2vw;
+    height: 1vw;
+    top: 72.3%;
+    left: 77%;
+}
+.water2{
+    width: 3.5vw;
+    height: 2.5vw;
+    top: 69%;
+    left: 75.5%;
+}
+.water3{
+    width: 5.5vw;
+    height: 3.5vw;
+    top: 68%;
+    left: 72.5%;
+}
+
 .tail {
     position: absolute;
     width: 1.1vw;
@@ -255,7 +283,7 @@ body {
     top: 68%;
     left: 78%;
     background-color: rgb(98, 147, 196);
-    box-shadow: inset 0px 0px 10px rgb(55, 103, 145), 0px 5px 5px rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0px 0px 10px rgb(21, 49, 74);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -266,7 +294,7 @@ body {
     position: absolute;
     width: 2.4vw;
     height: 1.2vw;
-    border-bottom: 1.1vw solid rgb(98, 147, 196);
+    border-bottom: 1.1vw solid rgb(81, 119, 158);
     border-bottom-right-radius: 66% 63%;
     top: 62.5%;
     left: 79%;
@@ -281,7 +309,7 @@ body {
     position: absolute;
     width: 2.4vw;
     height: 1.2vw;
-    border-bottom: 1.1vw solid rgb(98, 147, 196);
+    border-bottom: 1.1vw solid rgb(81, 119, 158);
     top: 62.5%;
     left: 72.5%;
     border-bottom-left-radius: 66% 63%;
@@ -296,7 +324,7 @@ body {
     width: 1vw;
     height: 1.2vw;
     box-shadow: inset 10px 10px 10px rgba(196, 67, 232, 0.05), 5px 5px 10px rgba(0, 0, 0, 0.1),
-        10px 10px 10px rgba(0, 0, 0, 0.05), inset -10px -10px 10px rgba(255, 255, 255, 0.9);
+        10px 10px 10px rgba(0, 0, 0, 0.05), inset -10px -10px 8px rgba(255, 255, 255, 1);
 }
 .waterdrop::after {
     content: "";
