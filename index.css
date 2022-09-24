@@ -421,16 +421,16 @@ body {
     opacity: 0.1;
 }
 .ray1 {
-    width: 1.3vw;
+    width: .7vw;
     height: 5vw;
     top: 80%;
-    left: 14%;
+    left: 25%;
 }
 .ray2 {
-    width: 1.3vw;
+    width: .7vw;
     height: 4vw;
     top: -140%;
-    left: 11%;
+    left: 25%;
 }
 .ray3 {
     width: 4vw;
@@ -457,6 +457,20 @@ body {
     top: 115%;
     left: 55%;
     rotate: 40deg;
+}
+.ray7 {
+    width: 4vw;
+    height: 0.6vw;
+    top: -30%;
+    left: 55%;
+    rotate: -40deg;
+}
+.ray8 {
+    width: 4vw;
+    height: 0.6vw;
+    top: 115%;
+    left: -115%;
+    rotate: -40deg;
 }
 
 @keyframes loop {
