@@ -456,7 +456,7 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     animation: loop 2s linear infinite;
-    -webkit-animation: loop 2s linear infinite;
+    -webkit-animation: loop 3s linear infinite;
 }
 .ray {
     background: -webkit-linear-gradient(
