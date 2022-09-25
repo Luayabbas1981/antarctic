@@ -240,8 +240,8 @@ body {
     height: 5.4vw;
     top: 65%;
     left: 65%;
-    background-color: rgb(60, 49, 203);
-    box-shadow: inset 0px 0px 40px rgb(2, 2, 84), 5px 7px 20px gray;
+    background-color: rgb(114, 146, 220);
+    box-shadow: inset 0px 0px 40px rgb(44, 44, 166), 5px 7px 20px gray;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -292,7 +292,18 @@ body {
 }
  }
 
-
+.sea{
+    position: absolute;
+    top: 49.5%;
+    width: 10vw;
+    height: 8vw;
+    background-color: rgb(150, 177, 239);
+    border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
+    -webkit-border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
+    -moz-border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
+    -ms-border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
+    -o-border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
+}
 .tail {
     position: absolute;
     width: 1.1vw;
@@ -300,7 +311,7 @@ body {
     top: 68%;
     left: 78%;
     background-color: rgb(98, 147, 196);
-    box-shadow: inset 0px 0px 10px rgb(21, 49, 74);
+    box-shadow: inset 0px 0px 10px rgb(42, 82, 117);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -522,4 +533,8 @@ body {
     to {
         rotate: 180deg;
     }
+}
+.bird {
+    position: absolute;
+    
 }
