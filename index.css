@@ -259,7 +259,7 @@ body {
 }
 .water1{
     width: 2vw;
-    height: 2vw;
+    height: 1.8vw;
     top: 68.7%;
     left: 76.5%;
     animation: water 3s infinite linear  ;
@@ -269,7 +269,7 @@ body {
     width: 3vw;
     height: 2.5vw;
     top: 68.7%;
-    left: 75.5%;
+    left: 75.2%;
     animation: water 3s infinite linear  ;
     -webkit-animation: water 3s infinite linear  ;
 }
@@ -330,11 +330,11 @@ body {
     top: 62.5%;
     left: 72.5%;
     border-bottom-left-radius: 66% 63%;
-    transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
+    transform: rotate(20deg) ;
+    -webkit-transform: rotate(20deg) ;
+    -moz-transform: rotate(20deg) ;
+    -ms-transform: rotate(20deg) ;
+    -o-transform: rotate(20deg) ;
 }
 .waterdrop {
     position: absolute;
