@@ -262,26 +262,35 @@ body {
     height: 2vw;
     top: 68.7%;
     left: 76.5%;
-    animation:  water 2s infinite linear;
-    -webkit-animation:  water1 2s infinite linear;
+    animation: water 3s infinite linear  ;
+    -webkit-animation: water 3s infinite linear  ;
 }
 .water2{
     width: 3vw;
     height: 2.5vw;
     top: 68.7%;
     left: 75.5%;
-    animation:  water 2s infinite linear;
-    -webkit-animation:  water1 2s infinite linear;
+    animation: water 3s infinite linear  ;
+    -webkit-animation: water 3s infinite linear  ;
 }
 .water3{
-    width: 4.8vw;
-    height: 3vw;
-    top: 68.9%;
-    left: 73%;
-    animation:  water 2s infinite linear;
-    -webkit-animation:  water1 2s infinite linear;
+   width: 4.8vw;
+   height: 3vw;
+   top: 68.9%;
+   left: 73%;
+   animation: water 3s infinite linear   ;
+   -webkit-animation: water 3s infinite linear   ;
 }
- 
+ @keyframes water {
+    to {
+        opacity: .3;
+        transform: scale(1.4);
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        -o-transform: scale(1.4);
+}
+ }
 
 
 .tail {
