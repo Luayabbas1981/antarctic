@@ -260,8 +260,8 @@ body {
 .water1{
     width: 2vw;
     height: 1.8vw;
-    top: 68.7%;
-    left: 76.5%;
+    top: 69%;
+    left: 76.4%;
     animation: water 3s infinite linear  ;
     -webkit-animation: water 3s infinite linear  ;
 }
