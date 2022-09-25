@@ -529,6 +529,53 @@ body {
     rotate: -40deg;
 }
 
+ 
+.ray9{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    top: 22%;
+    left: 32%;
+    background: rgb(251,251,230);
+    background: radial-gradient(circle, rgba(251,251,230,1) 8%, rgba(249,215,205,1) 55%);
+    opacity: .5;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+.ray10{
+    position: absolute;
+    width: 1.3vw;
+    height: 1.3vw;
+    top: 24%;
+    left: 36%;
+    background: rgb(251,251,230);
+    background: radial-gradient(circle, rgba(251,251,230,1) 8%, rgba(168,213,244,1) 55%);
+    opacity: .5;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+.ray11{
+    position: absolute;
+    width: 1.7vw;
+    height: 1.7vw;
+    top: 26.5%;
+    left: 40%;
+    background: rgb(251,251,230);
+    background: radial-gradient(circle, rgba(251,251,230,1) 8%, rgba(168,244,203,1) 55%);
+    opacity: .5;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+
 @keyframes loop {
     to {
         rotate: 180deg;
