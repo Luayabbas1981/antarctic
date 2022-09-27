@@ -587,17 +587,62 @@ body {
     top: 43%;
     left: 10%;
     font-size:2vw;
-    animation: fly 1s 4s linear forwards;
-    -webkit-animation: fly 1s 4s linear forwards;
 }
-
-.plane{
+.smoke{
+    position: absolute;
+    filter: blur(8px);
+    background-color:rgb(0, 0, 0);
+    opacity: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-filter: blur(6px);
+}
+.smoke1{
+    top: 39.5%;
+    left: 13.5%;
+    width: .4vw;
+    height: .6vw;
+    animation: smoke 1s linear ,smoke 1s 3s ,smoke 1s 6s ,smoke 1s 9s ,smoke 1s 12s;
+    -webkit-animation: smoke 1s linear ,smoke 1s 3s ,smoke 1s 6s ,smoke 1s 9s ,smoke 1s 12s;
+}
+.smoke2{
+    top: 36%;
+    left: 14.8%;
+    width: .4vw;
+    height: .6vw;
+    animation: smoke 1s 1s linear ,smoke 1s 4s ,smoke 1s 7s,smoke 1s 10s ,smoke 1s 13s;
+    -webkit-animation: smoke 1s 1s linear ,smoke 1s 4s ,smoke 1s 7s,smoke 1s 10s ,smoke 1s 13s;
+}
+.smoke3{
+    top: 32%;
+    left: 16.8%;
+    width: .4vw;
+    height: .6vw;
+    animation: smoke 1s 2s linear ,smoke 1s 5s ,smoke 1s 8s ,smoke 1s 11s ,smoke 1s 14s;
+    -webkit-animation: smoke 1s 2s linear ,smoke 1s 5s ,smoke 1s 8s ,smoke 1s 11s ,smoke 1s 14s;
+}
+@keyframes smoke {
+    to{
+        opacity: 1;
+    }
+}
+.plane1{
     position: absolute;
     top: 9%;
-    left: 120%;
+    left: 110%;
     font-size:3vw;
-    animation: fly 6s linear;
-    -webkit-animation: fly 6s linear;
+    animation: fly 8s linear;
+    -webkit-animation: fly 8s linear;
+} 
+.plane2{
+    position: absolute;
+    top: 42%;
+    left: 86%;
+    font-size:2.3vw;
+  
 } 
 @keyframes fly {
     to{
