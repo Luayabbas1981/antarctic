@@ -385,18 +385,18 @@ body {
     -o-border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
 }
 .drop1 {
-    top: 40%;
-    left: 58%;
+    top: 42%;
+    left: 59%;
     border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
     -webkit-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
     -moz-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
     -ms-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
     -o-border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
-    transform: translateZ(300px);
-    -webkit-transform: translateZ(300px);
-    -moz-transform: translateZ(300px);
-    -ms-transform: translateZ(300px);
-    -o-transform: translateZ(300px);
+    transform: translateZ(275px);
+    -webkit-transform: translateZ(275px);
+    -moz-transform: translateZ(275px);
+    -ms-transform: translateZ(275px);
+    -o-transform: translateZ(275px);
 }
 .drop2 {
     top: 65%;
@@ -408,7 +408,7 @@ body {
     -o-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
 }
 .drop3 {
-    top: 40%;
+    top: 43%;
     left: 62%;
     border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
     -webkit-border-radius: 48% 52% 46% 54% / 43% 78% 22% 57%;
@@ -587,15 +587,17 @@ body {
     top: 43%;
     left: 10%;
     font-size:2vw;
+    animation: fly 1s 4s linear forwards;
+    -webkit-animation: fly 1s 4s linear forwards;
 }
 
 .plane{
     position: absolute;
     top: 9%;
-    left: 70%;
+    left: 120%;
     font-size:3vw;
-    animation: fly 5s linear;
-    -webkit-animation: fly 5s linear forwards;
+    animation: fly 6s linear;
+    -webkit-animation: fly 6s linear;
 } 
 @keyframes fly {
     to{
