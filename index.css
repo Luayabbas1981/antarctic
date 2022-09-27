@@ -588,14 +588,8 @@ body {
     left: 10%;
     font-size:2vw;
 }
-.plane1{
-    position: absolute;
-    top: 35%;
-    left: 82%;
-    font-size:5vw;
-   
-} 
-.plane2{
+
+.plane{
     position: absolute;
     top: 9%;
     left: 70%;
