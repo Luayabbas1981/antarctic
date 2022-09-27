@@ -14,6 +14,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     perspective: 400px;
+    overflow: hidden;
 }
 .earth {
     width: 100%;
@@ -248,7 +249,7 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.water{
+.water {
     position: absolute;
     border: 2px solid rgb(186, 186, 228);
     border-radius: 50%;
@@ -257,31 +258,31 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.water1{
+.water1 {
     width: 2vw;
     height: 1.8vw;
     top: 69%;
     left: 76.4%;
-    animation: water 3s infinite linear  ;
-    -webkit-animation: water 3s infinite linear  ;
+    animation: water 3s infinite linear;
+    -webkit-animation: water 3s infinite linear;
 }
-.water2{
+.water2 {
     width: 3vw;
     height: 2.5vw;
     top: 68.7%;
     left: 75.2%;
-    animation: water 3s infinite linear  ;
-    -webkit-animation: water 3s infinite linear  ;
+    animation: water 3s infinite linear;
+    -webkit-animation: water 3s infinite linear;
 }
-.water3{
-   width: 4.8vw;
-   height: 3vw;
-   top: 68.9%;
-   left: 73%;
-   animation: water 3s infinite linear   ;
-   -webkit-animation: water 3s infinite linear   ;
+.water3 {
+    width: 4.8vw;
+    height: 3vw;
+    top: 68.9%;
+    left: 73%;
+    animation: water 3s infinite linear;
+    -webkit-animation: water 3s infinite linear;
 }
- @keyframes water {
+@keyframes water {
     to {
         opacity: 0;
         transform: scale(1.4);
@@ -289,16 +290,15 @@ body {
         -moz-transform: scale(1.4);
         -ms-transform: scale(1.4);
         -o-transform: scale(1.4);
+    }
 }
- }
 
-.sea{
+.sea {
     position: absolute;
     top: 49.5%;
     width: 10vw;
     height: 8vw;
     background-color: rgb(84 127 227);
-  
     border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
     -webkit-border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
     -moz-border-radius: 61% 39% 100% 0% / 0% 31% 69% 100%;
@@ -342,11 +342,11 @@ body {
     top: 62.5%;
     left: 72.5%;
     border-bottom-left-radius: 66% 63%;
-    transform: rotate(20deg) ;
-    -webkit-transform: rotate(20deg) ;
-    -moz-transform: rotate(20deg) ;
-    -ms-transform: rotate(20deg) ;
-    -o-transform: rotate(20deg) ;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
 }
 .waterdrop {
     position: absolute;
@@ -376,6 +376,7 @@ body {
     height: 0.1vw;
     top: 20%;
     left: 40%;
+    
     background-color: #fff;
     border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
     -webkit-border-radius: 51% 49% 70% 30% / 30% 48% 52% 70%;
@@ -478,13 +479,13 @@ body {
     opacity: 0.1;
 }
 .ray1 {
-    width: .7vw;
+    width: 0.7vw;
     height: 5vw;
     top: 80%;
     left: 25%;
 }
 .ray2 {
-    width: .7vw;
+    width: 0.7vw;
     height: 4vw;
     top: -140%;
     left: 25%;
@@ -530,55 +531,80 @@ body {
     rotate: -40deg;
 }
 
- 
-.ray9{
+.ray9 {
     position: absolute;
     width: 1vw;
     height: 1vw;
     top: 22%;
     left: 32%;
-    background: rgb(251,251,230);
-    background: radial-gradient(circle, rgba(251,251,230,1) 8%, rgba(249,215,205,1) 55%);
-    opacity: .5;
-    border-radius:50% ;
-    -webkit-border-radius:50% ;
-    -moz-border-radius:50% ;
-    -ms-border-radius:50% ;
-    -o-border-radius:50% ;
+    background: rgb(251, 251, 230);
+    background: radial-gradient(circle, rgba(251, 251, 230, 1) 8%, rgba(249, 215, 205, 1) 55%);
+    opacity: 0.5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
-.ray10{
+.ray10 {
     position: absolute;
     width: 1.3vw;
     height: 1.3vw;
     top: 24%;
     left: 36%;
-    background: rgb(251,251,230);
-    background: radial-gradient(circle, rgba(251,251,230,1) 8%, rgba(168,213,244,1) 55%);
-    opacity: .5;
-    border-radius:50% ;
-    -webkit-border-radius:50% ;
-    -moz-border-radius:50% ;
-    -ms-border-radius:50% ;
-    -o-border-radius:50% ;
+    background: rgb(251, 251, 230);
+    background: radial-gradient(circle, rgba(251, 251, 230, 1) 8%, rgba(168, 213, 244, 1) 55%);
+    opacity: 0.5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
-.ray11{
+.ray11 {
     position: absolute;
     width: 1.7vw;
     height: 1.7vw;
     top: 26.5%;
     left: 40%;
-    background: rgb(251,251,230);
-    background: radial-gradient(circle, rgba(251,251,230,1) 8%, rgba(168,244,203,1) 55%);
-    opacity: .5;
-    border-radius:50% ;
-    -webkit-border-radius:50% ;
-    -moz-border-radius:50% ;
-    -ms-border-radius:50% ;
-    -o-border-radius:50% ;
+    background: rgb(251, 251, 230);
+    background: radial-gradient(circle, rgba(251, 251, 230, 1) 8%, rgba(168, 244, 203, 1) 55%);
+    opacity: 0.5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 @keyframes loop {
     to {
         rotate: 180deg;
+    }
+}
+.boat {
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    font-size:2vw;
+}
+.plane1{
+    position: absolute;
+    top: 35%;
+    left: 82%;
+    font-size:5vw;
+   
+} 
+.plane2{
+    position: absolute;
+    top: 9%;
+    left: 70%;
+    font-size:3vw;
+    animation: fly 5s linear;
+    -webkit-animation: fly 5s linear forwards;
+} 
+@keyframes fly {
+    to{
+        left: -30%;
     }
 }
