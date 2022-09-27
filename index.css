@@ -599,30 +599,35 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     -webkit-filter: blur(6px);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .smoke1{
     top: 39.5%;
     left: 13.5%;
     width: .4vw;
     height: .6vw;
-    animation: smoke 1s linear ,smoke 1s 3s ,smoke 1s 6s ,smoke 1s 9s ,smoke 1s 12s;
-    -webkit-animation: smoke 1s linear ,smoke 1s 3s ,smoke 1s 6s ,smoke 1s 9s ,smoke 1s 12s;
+    animation: smoke 1s linear ,smoke 1s 3s ,smoke 1s 6s ,smoke 1s 9s ,smoke 1s 12s,smoke 1s 15s;
+    -webkit-animation: smoke 1s linear ,smoke 1s 3s ,smoke 1s 6s ,smoke 1s 9s ,smoke 1s 12s,smoke 1s 15s;
 }
 .smoke2{
     top: 36%;
     left: 14.8%;
     width: .4vw;
     height: .6vw;
-    animation: smoke 1s 1s linear ,smoke 1s 4s ,smoke 1s 7s,smoke 1s 10s ,smoke 1s 13s;
-    -webkit-animation: smoke 1s 1s linear ,smoke 1s 4s ,smoke 1s 7s,smoke 1s 10s ,smoke 1s 13s;
+    animation: smoke 1s 1s linear ,smoke 1s 4s ,smoke 1s 7s,smoke 1s 10s ,smoke 1s 13s,smoke 1s 16s;
+    -webkit-animation: smoke 1s 1s linear ,smoke 1s 4s ,smoke 1s 7s,smoke 1s 10s ,smoke 1s 13s,smoke 1s 16s;
 }
 .smoke3{
     top: 32%;
     left: 16.8%;
     width: .4vw;
     height: .6vw;
-    animation: smoke 1s 2s linear ,smoke 1s 5s ,smoke 1s 8s ,smoke 1s 11s ,smoke 1s 14s;
-    -webkit-animation: smoke 1s 2s linear ,smoke 1s 5s ,smoke 1s 8s ,smoke 1s 11s ,smoke 1s 14s;
+    animation: smoke 1s 2s linear ,smoke 1s 5s ,smoke 1s 8s ,smoke 1s 11s ,smoke 1s 14s ,smoke 1s 17s;
+    -webkit-animation: smoke 1s 2s linear ,smoke 1s 5s ,smoke 1s 8s ,smoke 1s 11s ,smoke 1s 14s ,smoke 1s 17s;
 }
 @keyframes smoke {
     to{
@@ -642,7 +647,11 @@ body {
     top: 42%;
     left: 86%;
     font-size:2.3vw;
-  
+    transform: rotateY(120deg);
+    -webkit-transform: rotateY(120deg);
+    -moz-transform: rotateY(120deg);
+    -ms-transform: rotateY(120deg);
+    -o-transform: rotateY(120deg);
 } 
 @keyframes fly {
     to{
