@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     overflow: hidden;
+
 }
 
 .frame {
@@ -457,7 +458,7 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    animation: loop 2s linear infinite;
+    animation: loop 3s linear infinite;
     -webkit-animation: loop 3s linear infinite;
 }
 .ray {
@@ -639,22 +640,32 @@ body {
     top: 9%;
     left: 110%;
     font-size:3vw;
-    animation: fly 8s linear;
-    -webkit-animation: fly 8s linear;
+    animation: fly 10s linear;
+    -webkit-animation: fly 7s 2.5s linear;
 } 
 .plane2{
     position: absolute;
-    top: 42%;
-    left: 86%;
+    top: 32%;
+    left: 26%;
     font-size:2.3vw;
-    transform: rotateY(120deg);
-    -webkit-transform: rotateY(120deg);
-    -moz-transform: rotateY(120deg);
-    -ms-transform: rotateY(120deg);
-    -o-transform: rotateY(120deg);
+    z-index: -2;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    animation: fly2 3s linear forwards;
+    -webkit-animation: down 3s linear forwards;
 } 
 @keyframes fly {
     to{
         left: -30%;
+       
+    }
+}
+@keyframes down {
+    to{
+        left: 82%;
+        top: 40%;
     }
 }
