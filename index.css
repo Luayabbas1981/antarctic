@@ -6,8 +6,8 @@ body {
 
 .frame {
     position: absolute;
-    width: 35vw;
-    height: 55vh;
+    width:600px;
+    height: 450px;
     background-color: #aee2f0;
     box-shadow: 10px 10px 10px #d7d7d7;
     border-radius: 20px 20px 20px 80px;
@@ -26,10 +26,10 @@ body {
 }
 .face {
     position: absolute;
-    width: 4.5vw;
-    height: 4.5vw;
-    left: 40%;
-    top: 37%;
+    width: 80px;
+    height: 80px;
+    left: 240px;
+    top: 165px;
     background-color: black;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -39,10 +39,10 @@ body {
 }
 .body {
     position: absolute;
-    width: 6vw;
-    height: 7.5vw;
-    left: 37.5%;
-    top: 48.8%;
+    width: 110px;
+    height: 140px;
+    left: 225px;
+    top: 229px;
     background-color: black;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -53,10 +53,10 @@ body {
 
 .stomic {
     position: absolute;
-    width: 4.8vw;
-    height: 6.2vw;
-    left: 39.2%;
-    top: 51.7%;
+    width: 90px;
+    height: 120px;
+    left: 235px;
+    top: 240px;
     background-color: rgb(255, 255, 255);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -66,12 +66,12 @@ body {
 }
 .hand1 {
     position: absolute;
-    width: 3.5vw;
-    height: 2.2vw;
+    width: 70px;
+    height: 25px;
     border-bottom: 1.6vw solid black;
     border-bottom-right-radius: 66% 63%;
-    top: 42%;
-    left: 48%;
+    top: 215px;
+    left: 285px;
     transform: rotate(330deg);
     -webkit-transform: rotate(330deg);
     -moz-transform: rotate(330deg);
@@ -80,12 +80,12 @@ body {
 }
 .hand2 {
     position: absolute;
-    width: 3.5vw;
-    height: 2.2vw;
+    width: 70px;
+    height:30px;
     border-bottom: 1.6vw solid black;
     border-bottom-right-radius: 66% 63%;
-    top: 54%;
-    left: 33.3%;
+    top:255px;
+    left: 200px;
     transform: rotate(157deg);
     -webkit-transform: rotate(157deg);
     -moz-transform: rotate(157deg);
@@ -94,10 +94,10 @@ body {
 }
 .cheek1 {
     position: absolute;
-    width: 1.4vw;
-    height: 2.2vw;
-    left: 41.7%;
-    top: 40.5%;
+    width: 27px;
+    height: 45px;
+    left: 252px;
+    top: 180px;
     background-color: rgb(255, 255, 255);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -107,19 +107,19 @@ body {
 }
 .cheek2 {
     position: absolute;
-    width: 1.4vw;
-    height: 2.2vw;
-    left: 47%;
-    top: 40.5%;
+    width: 27px;
+    height: 45px;
+    left: 280px;
+    top: 180px;
     background-color: rgb(255, 255, 255);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 .chain {
     position: absolute;
-    width: 1.4vw;
-    height: 2.7vw;
-    left: 44.6%;
-    top: 42.4%;
+    width: 32px;
+    height: 48px;
+    left: 264px;
+    top: 191px;
     background-color: rgb(255, 255, 255);
     rotate: 90deg;
     border-radius: 50%;
@@ -130,20 +130,20 @@ body {
 }
 .nose {
     position: absolute;
-    width: 0.9vw;
-    height: 0.6vw;
+    width: 12px;
+    height: 8px;
     background-color: rgb(255, 117, 5);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    left: 45%;
-    top: 44.6%;
+    left: 273px;
+    top: 203px;
 }
 .eye1 {
     position: absolute;
-    width: 0.4vw;
-    height: 0.6vw;
-    left: 43.6%;
-    top: 42.4%;
+    width: 5px;
+    height: 10px;
+    left: 262px;
+    top: 190px;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -154,10 +154,10 @@ body {
 .eye1::after {
     content: "";
     position: absolute;
-    width: 0.1vw;
-    height: 0.2vw;
-    left: 20%;
-    top: 30%;
+    width: 1.5px;
+    height: 3px;
+    left: 1px;
+    top: 2px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -167,10 +167,10 @@ body {
 }
 .eye2 {
     position: absolute;
-    width: 0.4vw;
-    height: 0.6vw;
-    left: 48.5%;
-    top: 42.4%;
+    width: 5px;
+    height: 10px;
+    left: 292px;
+    top: 190px;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -181,10 +181,10 @@ body {
 .eye2::after {
     content: "";
     position: absolute;
-    width: 0.1vw;
-    height: 0.2vw;
-    left: 10%;
-    top: 30%;
+    width: 1.5px;
+    height: 3px;
+    left: 1px;
+    top: 2px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     -webkit-border-radius: 50%;
