@@ -115,10 +115,10 @@ body {
 }
 .chain {
     position: absolute;
-    width: 32px;
-    height: 48px;
-    left: 264px;
-    top: 191px;
+    width: 29px;
+    height: 49px;
+    left: 265px;
+    top: 192px;
     background-color: rgb(255, 255, 255);
     rotate: 90deg;
     border-radius: 50%;
@@ -134,8 +134,8 @@ body {
     background-color: rgb(255, 117, 5);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    left: 273px;
-    top: 199px;
+    left: 274px;
+    top: 201px;
 }
 .eye1 {
     position: absolute;
@@ -612,9 +612,9 @@ body {
 }
 .smoke1 {
     top: 39.5%;
-    left: 13.5%;
-    width: 0.4vw;
-    height: 0.6vw;
+    left: 13%;
+    width: 15px;
+    height: 15px;
     animation:
         smoke 1s linear,
         smoke 1s 3s,
@@ -632,9 +632,9 @@ body {
 }
 .smoke2 {
     top: 36%;
-    left: 14.8%;
-    width: 0.4vw;
-    height: 0.6vw;
+    left: 14%;
+    width: 15px;
+    height: 15px;
     animation:
         smoke 1s 1s linear,
         smoke 1s 4s,
@@ -652,9 +652,9 @@ body {
 }
 .smoke3 {
     top: 32%;
-    left: 16.8%;
-    width: 0.4vw;
-    height: 0.6vw;
+    left: 16%;
+    width: 15px;
+    height: 15px;
     animation:
         smoke 1s 2s linear,
         smoke 1s 5s,
